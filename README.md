@@ -10,3 +10,4 @@ dir=whispering;interval=2;x=0; mkdir -p "$dir";while [ $x -le $(bc -l <<<"2*60 +
 - [ ] Join the split files using Web Audio API 
 - [ ] Do transformations (Tempo, pitch, etc) on the audio
 - [ ] Generate phenomenized audio
+- [ ] Generating music from midi and *syllabized* lyrics
